@@ -1,4 +1,10 @@
+require 'pry'
+
 def find_item_by_name_in_collection(name, collection)
+  collection.each do |item|
+    binding.pry
+
+  end
   # Implement me first!
   #
   # Consult README for inputs and outputs
@@ -12,6 +18,3 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 
 end
-
-
-  
