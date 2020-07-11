@@ -7,7 +7,8 @@ def find_item_by_name_in_collection(name, collection)
         binding.pry
         if item_info[:item_data] == data
 
-
+        end
+      end
   end
     #
   # Consult README for inputs and outputs
