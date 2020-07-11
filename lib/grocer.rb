@@ -1,12 +1,15 @@
-require 'pry'
+binding.pry
 
 def find_item_by_name_in_collection(name, collection)
-  collection.each do |item|
-    binding.pry
+  collection.each do |item_list|
+    item_list.each do |item_info|
+      item_info.each do |item_data|
+        binding.pry
+        if item_info[:item_data] == data
+
 
   end
-  # Implement me first!
-  #
+    #
   # Consult README for inputs and outputs
 
 end
